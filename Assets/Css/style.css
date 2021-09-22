@@ -1,0 +1,543 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300;400;500&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+.margin-bottom-30 {
+  margin-bottom: 100px;
+}
+.pad-7 {
+  padding: 7px;
+}
+.bg-orange {
+  background-color: orange;
+}
+.margin-20 {
+  margin: 20px;
+}
+.header1 {
+  display: grid;
+  position: fixed;
+  width: 100%;
+}
+.width-500 {
+  width: 50%;
+}
+.header2 {
+  background-image: url('../Images/bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 100%;
+}
+ul > li {
+  list-style-type: none;
+  display: inline;
+  vertical-align: top;
+}
+ul > li a {
+  color: white;
+  text-decoration: none;
+}
+nav {
+  background-color: #372d5f;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: #fff;
+  align-items: center;
+  height: 60px;
+}
+nav > ul > li {
+  margin: 10px;
+}
+.presentation {
+  background-color: rgba(219, 219, 203, 0.377);
+  /* border: 1px solid red; */
+  height: 50vh;
+  width: 900px;
+  padding: 10px;
+}
+.ft-roboto-reg {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+}
+span {
+  font-size: 22px;
+}
+.h2-color {
+  color: #2c1344;
+}
+.marg-20 {
+  margin: 20px;
+}
+.h1-color {
+  /* color: #372d5fcc; */
+  color: #291e64;
+}
+.ft-size-35 {
+  font-size: 35px;
+}
+.stroke {
+  stroke: #5443ad;
+}
+
+.presContainer {
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr 0.5fr;
+  column-gap: 0px;
+}
+.width-100 {
+  width: 170px;
+}
+.box-shadow {
+  box-shadow: 0px 0px 10px 5px #1f0c3d85;
+}
+.hover-box-shadow:hover {
+  box-shadow: -8px 5px 10px #372d5f;
+  transition: 0.2s;
+}
+
+.my-pict:hover {
+  width: 170px;
+  transition: 0.2s;
+}
+.h2-value-color {
+  color: #19062b;
+  margin-bottom: 20px;
+}
+.hover-dark-blue:hover {
+  color: #392948;
+  font-size: 18px;
+}
+.border-1px-red {
+  border: 1px solid red;
+}
+.just-cont-center {
+  justify-content: center;
+}
+.space-bet {
+  justify-content: space-between;
+}
+.txt-center {
+  text-align: center;
+}
+.marg-40 {
+  margin: 40px;
+}
+.about {
+  background-color: #372d5f;
+  height: 45vh;
+  color: #fff;
+  padding: 10px;
+  line-height: 35px;
+}
+.marg-top-15 {
+  margin-top: 15px;
+}
+.marg-top-25 {
+  margin-top: 90px;
+}
+.marg-left-25 {
+  margin-left: 25px;
+}
+.marg-top-30 {
+  margin-top: 30px;
+}
+.marg-top-50 {
+  margin-top: 50px;
+}
+.marg-bottom-10 {
+  margin-bottom: 5px;
+}
+
+.introComp {
+  text-align: center;
+}
+hr {
+  width: 5%;
+  float: inherit;
+  height: 2px;
+  background-color: #372d5f;
+  border: none;
+}
+.disp-flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.align-item {
+  align-items: center;
+}
+.ft-roboto {
+  font-family: "Roboto", sans-serif;
+}
+.ft-open-sans-light {
+  font-family: "Open sans", sans-serif;
+}
+.litle-purple {
+  color: #5543ade0;
+}
+.txt-deco {
+  text-decoration: underline;
+}
+.ft-weight-med {
+  font-weight: medium;
+}
+.display-grid {
+  display: grid;
+}
+.pad-20 {
+  padding: 20px;
+}
+.grid-tp-col {
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.row-gap {
+  row-gap: 10px;
+}
+
+.comp-box {
+  width: 520px;
+  height: 36px;
+}
+.bg-litle-purple {
+  background-color: #5443ad;
+}
+.bg-yellow {
+  background-color: #faf8a8;
+}
+.hover-yellow:hover {
+  color: #faf8a8;
+}
+.hover-bg-yellow:hover {
+  background-color: #faf8a8;
+}
+.html-anim {
+  animation: html-full 2s forwards;
+}
+.wp-anim {
+  animation: wp-full 2s forwards;
+}
+@keyframes html-full {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes wp-full {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+.css-anim {
+  animation: css-full 2s forwards;
+}
+@keyframes css-full {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+.js-anim {
+  animation: js-full 2s forwards;
+}
+@keyframes js-full {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 30%;
+  }
+}
+.html-bar {
+  width: 404px;
+  height: 36px;
+  border-radius: 0 15px 15px 0;
+}
+.css-bar {
+  width: 365px;
+  height: 36px;
+  border-radius: 0 15px 15px 0;
+}
+.javaScript-bar {
+  width: 200px;
+  height: 36px;
+  border-radius: 0 15px 15px 0;
+}
+.wordpress-bar {
+  width: 450px;
+  height: 36px;
+  border-radius: 0 15px 15px 0;
+}
+.ft-oswald {
+  font-family: "Oswald", sans-serif;
+}
+.ft-roboto {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: medium;
+  line-height: auto;
+}
+.bar-box-shadow {
+  box-shadow: 5px 10px 15px #372d5f;
+}
+.grid-tp-col-1fr-1fr {
+  grid-template-columns: 1fr 1fr;
+}
+.full-width {
+  width: 100%;
+}
+.width-90 {
+  width: 90%;
+}
+.form-width {
+  width: 90%;
+}
+.inp-width {
+  width: 93%;
+}
+.inp-disp-flex {
+  display: flex;
+}
+.inp-height {
+  height: 35px;
+}
+.border {
+  border: 1px solid red;
+}
+.pad-7 {
+  padding: 7px;
+}
+.pad-9 {
+  padding: 9px;
+}
+.pad-30 {
+  padding: 30px;
+}
+.textarea-height {
+  height: 100px;
+  resize: none;
+}
+.margin-right-100 {
+  margin-right: 100px;
+}
+.width-93 {
+  width: 98%;
+}
+.width-30 {
+  width: 30%;
+}
+.grid-tp-col-1fr-1fr-1fr {
+  grid-template-columns: repeat(3, 1fr);
+}
+.row-gap-20 {
+  grid-row-gap: 20px;
+}
+.col-gap-20 {
+  grid-column-gap: 20px;
+}
+.bg-dark-blue {
+  background-color: #372d5f;
+}
+.white-color {
+  color: #fff;
+}
+.no-border {
+  border: none;
+}
+input,
+textarea {
+  border: 1px solid;
+  box-shadow: 3px -5px 5px #372d5fa8;
+  margin-top: 10px;
+}
+input:focus,
+textarea:focus {
+  outline: 1px solid #5443ad;
+}
+.full-height {
+  height: 100%;
+}
+.height-80 {
+  height: 80px;
+}
+
+.vert-align {
+  vertical-align: text-top;
+}
+@media screen and (max-width: 690px) {
+  h2 {
+    font-size: 15px;
+  }
+  nav {
+    /* display: none; */
+    height: 10px;
+    display: flex;
+    align-items: center;
+  }
+  nav > ul > li {
+    font-size: 13px;
+    width: 100%;
+  }
+  svg {
+    width: 10px;
+    height: 10px;
+  }
+  .header1 {
+    width: 100%;
+  }
+  #compet {
+    grid-template-columns: 1fr;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .mini-h1 {
+    font-size: 16px;
+  }
+  #proj {
+    grid-template-columns: 1fr;
+  }
+  #proj > div {
+    width: 100%;
+  }
+  .mini-width {
+    width: 60%;
+  }
+  #wp {
+    margin-left: 20px;
+  }
+  #about {
+    margin-top: 30px;
+  }
+  #contact {
+    width: 100%;
+  }
+  .nom-prenom-col {
+    flex-direction: column;
+    width: 105%;
+  }
+  .h2-value-color {
+    margin-bottom: 0;
+  }
+  .full-mini-width {
+    width: 95%;
+  }
+  .marg-bottom-30 {
+    margin-bottom: 20px;
+  }
+  .about {
+    font-size: 12px;
+    line-height: 20px;
+    padding: 10px;
+    letter-spacing: 1px;
+    height: 35vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  .header2 {
+    background-image: url("../Images/bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 100%;
+  }
+  .wordpress-bar {
+    width: 450px;
+    height: 20px;
+    border-radius: 0 15px 15px 0;
+  }
+  .presentation {
+    background-color: rgba(219, 219, 203, 0.377);
+    /* border: 1px solid red; */
+    height: 40vh;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+  .prop {
+    margin-bottom: 60px;
+  }
+  .mini-height {
+    height: 20px;
+  }
+  .value {
+    margin-bottom: 75px;
+    font-size: 14px;
+    text-align: left;
+  }
+  .presContainer {
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  }
+  .title {
+    background-color: #faf8a8;
+    padding: 4px;
+    margin-top: 20px;
+  }
+  .myPicture > img {
+    width: 100px;
+    justify-self: right;
+    margin-left: 30px;
+  }
+  .fname-mg-top {
+    margin-top: 20px;
+  }
+  .marg-top-20 {
+    margin-top: 20px;
+  }
+  .my-pict:hover {
+    width: 130px;
+    transition: 0.2s;
+  }
+  footer {
+    font-size: 12px;
+    width: 100%;
+  }
+}
+@media screen and (max-widht: 930px) {
+  #compet {
+    grid-template-columns: 1fr;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  nav {
+    /* display: none; */
+    height: 10px;
+    display: flex;
+    align-items: center;
+  }
+  nav > ul > li {
+    font-size: 13px;
+    width: 100%;
+  }
+  svg {
+    width: 10px;
+    height: 10px;
+  }
+  .header1 {
+    width: 100%;
+  }
+}
